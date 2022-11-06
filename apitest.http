@@ -1,0 +1,38 @@
+# Dies ist ein GET Request, der alle ToDos holt
+
+GET https://localhost:7112/api/todos
+
+###
+
+# Nur ein ToDo holen
+GET https://localhost:7112/api/todos/7
+
+###
+
+# Ein neues ToDo erstellen
+POST https://localhost:7112/api/todos
+content-type: application/json
+
+{
+    "taskDescription": "Ein neues ToDo"
+}
+
+###
+
+# Ein ToDo updaten
+Put https://localhost:7112/api/todos/7
+content-type: application/json
+
+{
+    "isCompleted": true,
+    "taskDescription": "Neuer Text für das ToDo"
+}
+
+###
+
+# Ein ToDo löschen
+Delete https://localhost:7112/api/todos/6
+
+###
+
+# Rufe die Webseite https://localhost:7112/swagger/index.html im Browser auf

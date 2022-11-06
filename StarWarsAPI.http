@@ -1,0 +1,54 @@
+# The Star Wars API
+https://swapi.dev
+# am besten im Browser öffnen
+
+###
+
+# Generelle Übersicht
+GET https://swapi.dev/api/
+
+###
+
+# Menschen
+GET https://swapi.dev/api/people/
+
+###
+
+# Menschen zweite Seite
+GET https://swapi.dev/api/people/?page=2
+
+###
+
+# Mensch mit der Id 1
+GET https://swapi.dev/api/people/1/
+
+###
+
+# Mensch mit der Id 82
+GET https://swapi.dev/api/people/82/
+
+###
+
+# Planeten
+GET https://swapi.dev/api/planets/
+
+###
+
+# Planet mit der Id 12
+GET https://swapi.dev/api/planets/12/
+
+###
+
+# Planet mit der Id 300 (gibt es nicht)
+GET https://swapi.dev/api/planets/300/
+
+###
+
+# Suchen von Personen nach Name
+GET https://swapi.dev/api/people/?search=Sky
+###
+
+# Response im Wookie-Format
+GET https://swapi.dev/api/planets/1/?format=wookiee
+###
+

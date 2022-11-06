@@ -1,0 +1,8 @@
+# Rapid API   rapidapi.com
+
+GET https://shazam.p.rapidapi.com/search?term=kiss%20the%20rain&locale=en-US&offset=0&limit=5
+X-RapidAPI-Key: 4a2ee26f3cmshf4b32c3462034b3p1b3638jsnba3eabc8ec3c
+X-RapidAPI-Host: shazam.p.rapidapi.com
+
+
+
